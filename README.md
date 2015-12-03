@@ -1,0 +1,17 @@
+# Decoupled OWIN Authorization Server from Resource Server
+
+### How to Run
+
+1. Configure startup
+
+![Startup]("StartUp Projects.png")
+
+2. Launch HTML client application
+
+![HTML client]("Browse With.png")
+
+3. Run project
+
+
+
+

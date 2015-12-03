@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A5899061-3BDC-4C57-9DA6-0E3D620334F1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Client", "http://localhost:9500", "{0EC435A2-FFA3-4439-8F08-3CD5E9A8A085}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_9500"
+		Debug.AspNetCompiler.PhysicalPath = "Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9500\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_9500"
+		Release.AspNetCompiler.PhysicalPath = "Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9500\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Client\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceServer", "ResourceServer\ResourceServer.csproj", "{E72953C3-072C-4456-A18F-6862F08B3B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationServer", "AuthenticationServer\AuthenticationServer.csproj", "{16DE68DC-17AE-4F8A-B583-3054A926C835}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{1F07F3D3-2F2F-406B-AE64-E5AE02067727}"
+	ProjectSection(SolutionItems) = preProject
+		Browse With.png = Browse With.png
+		README.md = README.md
+		StartUp Projects.png = StartUp Projects.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EC435A2-FFA3-4439-8F08-3CD5E9A8A085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC435A2-FFA3-4439-8F08-3CD5E9A8A085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC435A2-FFA3-4439-8F08-3CD5E9A8A085}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC435A2-FFA3-4439-8F08-3CD5E9A8A085}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E72953C3-072C-4456-A18F-6862F08B3B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72953C3-072C-4456-A18F-6862F08B3B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72953C3-072C-4456-A18F-6862F08B3B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72953C3-072C-4456-A18F-6862F08B3B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16DE68DC-17AE-4F8A-B583-3054A926C835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DE68DC-17AE-4F8A-B583-3054A926C835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DE68DC-17AE-4F8A-B583-3054A926C835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DE68DC-17AE-4F8A-B583-3054A926C835}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
