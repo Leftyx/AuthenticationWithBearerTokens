@@ -4,11 +4,11 @@
 
 1. Configure startup
 
-![Startup]("StartUp Projects.png")
+![Startup](https://raw.githubusercontent.com/Leftyx/AuthenticationWithBearerTokens/master/StartUp Projects.png)
 
 2. Launch HTML client application
 
-![HTML client]("Browse With.png")
+![HTML client](https://raw.githubusercontent.com/Leftyx/AuthenticationWithBearerTokens/master/Browse With.png)
 
 3. Run project
 
